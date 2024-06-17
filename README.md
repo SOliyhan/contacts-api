@@ -1,5 +1,3 @@
-Here is the complete `README.md` file:
-
 ## Contacts API
 
 This is a backend project for managing contacts using Node.js and Express.
