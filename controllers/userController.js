@@ -2,6 +2,8 @@ import expressAsyncHandler from "express-async-handler";
 import { User } from "../models/userModel.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
+
+
 // Register a user
 // @route POST /api/users/register
 // access public
@@ -59,7 +61,7 @@ const loginUser = expressAsyncHandler(async (req, res) => {
                 },
             },
             process.env.ACCESS_TOKEN_SECRET,
-            {expiresIn: "3m"}
+            {expiresIn: "5m"}
         );
         res.status(200).json({accessToken});
     }
