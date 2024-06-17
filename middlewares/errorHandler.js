@@ -16,12 +16,8 @@ const errorHandler = (err, req, res, next)=> {
         case constant.NOT_FOUND:
             res.json(errorResponse(statusCode, err));
             break;
-        case constant.SERVER_ERROR:
-            res.json(errorResponse(statusCode, err));
-            break;
         default:
-            console.log("No error, all good!");
-            res.json(errorResponse(statusCode, err));
+            res.status(constant.SERVER_ERROR).json(errorResponse(constant.SERVER_ERROR, err));
             break;
     }
 }
