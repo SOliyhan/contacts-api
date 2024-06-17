@@ -1,7 +1,6 @@
 Here is the complete `README.md` file:
 
-````markdown
-# Contacts API
+## Contacts API
 
 This is a backend project for managing contacts using Node.js and Express.
 
@@ -15,10 +14,10 @@ This is a backend project for managing contacts using Node.js and Express.
 ## Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/SOliyhan/contacts-api.git
    ```
-````
 
 2. Navigate to the project directory:
    ```sh
