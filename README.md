@@ -28,11 +28,13 @@ This is a backend project for managing contacts using Node.js and Express.
 
 ## Usage
 
-1. Start the server:
+1. Start the server (for locall):
    ```sh
    npm start
    ```
 2. The API will be running at `http://localhost:5001`.
+3. The API is also deployed on `https://contacts-api-bcv1.onrender.com`
+4. Use tools like Postman, Thunder Client, etc to access the endpoints.
 
 ## API Endpoints
 
